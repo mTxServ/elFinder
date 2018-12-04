@@ -445,7 +445,7 @@ abstract class elFinderVolumeDriver {
 		'syncMinMs'    => null,
 		// required to fix bug on macos
 		// However, we recommend to use the Normalizer plugin instead this option
-		'utf8fix'      => false,
+		'utf8fix'      => true,
 		 //                           й                 ё              Й               Ё              Ø         Å
 		'utf8patterns' => array("\u0438\u0306", "\u0435\u0308", "\u0418\u0306", "\u0415\u0308", "\u00d8A", "\u030a"),
 		'utf8replace'  => array("\u0439",        "\u0451",       "\u0419",       "\u0401",       "\u00d8", "\u00c5"),
