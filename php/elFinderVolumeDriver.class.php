@@ -316,7 +316,11 @@ abstract class elFinderVolumeDriver {
 		),
 		// An option to add MimeMap to the `mimeMap` option
 		// Array '[ext]:[detected mime type]' => '[normalized mime]'
-		'additionalMimeMap' => array(),
+		'additionalMimeMap' => array(
+		    'ini:*' => 'text/plain',
+		    'properties:*' => 'text/plain',
+		    'cfg:*' => 'text/plain',
+		),
 		// MIME-Type of filetype detected as unknown
 		'mimeTypeUnknown' => 'application/octet-stream',
 		// MIME regex of send HTTP header "Content-Disposition: inline" or allow preview in quicklook
