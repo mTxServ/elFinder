@@ -320,6 +320,7 @@ abstract class elFinderVolumeDriver {
 		    'ini:*' => 'text/plain',
 		    'properties:*' => 'text/plain',
 		    'cfg:*' => 'text/plain',
+		    'lua:*' => 'text/plain',
 		),
 		// MIME-Type of filetype detected as unknown
 		'mimeTypeUnknown' => 'application/octet-stream',
